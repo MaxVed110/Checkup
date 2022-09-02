@@ -1,6 +1,13 @@
-import java.util.ArrayList;
-
 public interface Speaker {
 
-    void goToCheckup(ArrayList<Student> students);
+    void goToCheckup();
+
+    void goToMeasuringHeight();
+
+    void measuringHeight(Student student);
+
+    /**
+     * sorting by height
+     */
+    void addToGrowthAccountingBook();
 }
